@@ -1,0 +1,255 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.app {
+	display: block;
+}
+
+.view-box {
+	margin: 5%;
+	border: 1px dotted black;
+}
+
+.first {
+	color: blue;
+}
+
+.first-a {
+	color: blue;
+	text-decoration: none;
+}
+
+.first-a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+.second {
+	list-style-type: none;
+	width: 200px;
+}
+
+.second-a {
+	text-decoration: none;
+	border: 1px solid blue;
+	color: blue;
+	display: block;
+	margin: 5px 0;
+	padding: 5px;
+}
+
+.second-a:hover {
+	font-weight: 600;
+}
+
+.third {
+	list-style-type: none;
+	width: 200px;
+}
+
+.third-a {
+	text-decoration: none;
+	border: 1px solid rgb(68, 67, 67);
+	color: white;
+	background: rgb(68, 67, 67);
+	display: block;
+	margin: 5px 0;
+	padding: 5px;
+}
+
+.third-a:hover {
+	background: white;
+	color: black;
+}
+
+.fourth {
+	list-style-type: none;
+	width: 200px;
+}
+
+.fourth-li {
+	list-style: none;
+}
+
+.fourth-a {
+	text-decoration: none;
+	color: white;
+	background: blue;
+	display: block;
+	border: 1px solid blue;
+	display: block;
+	margin: 5px 0;
+	padding: 5px;
+}
+
+.fourth-a:hover {
+	background: url('/Zad1/img/blue.png') center right no-repeat;
+	color: blue;
+}
+
+.fifth {
+	list-style-type: none;
+	width: 100%;
+	height: 200px;
+}
+
+.fifth-a {
+	text-decoration: none;
+	border: 1px solid blue;
+	color: blue;
+	margin: 5px 5px;
+	padding: 5px;
+	font-size: 18px;
+	float: left;
+	display: block;
+}
+
+.fifth-a:hover {
+	color: red;
+	
+}
+
+.sixth {
+	list-style-type: none;
+}
+
+.sixth-li {
+	display: inline-block;
+}
+
+.sixth-a {
+	text-decoration: none;
+	border: 1px solid blue;
+	color: blue;
+	margin: 5px 5px;
+	padding: 5px;
+	font-size: 18px;
+	display: inline-block;
+}
+
+.sixth-a:hover {
+	background: rgb(68, 67, 67);
+	color: white;
+}
+
+.seventh {
+	list-style-type: none;
+}
+
+.seventh-li {
+	list-style: none;
+	display: inline-block;
+}
+
+.seventh a {
+	text-decoration: none;
+	display: block;
+	padding: 30px;
+	color: rgb(68, 67, 67);
+}
+
+.seventh-a-1 {
+	background: url(/Zad1/img/1.png) no-repeat top center;
+}
+
+.seventh-a-2 {
+	background: url(/Zad1/img/2.png) no-repeat top center;
+}
+
+.seventh-a-3 {
+	background: url(/Zad1/img/3.png) no-repeat top center;
+}
+
+.seventh-a-4 {
+	background: url(/Zad1/img/4.png) no-repeat top center;
+}
+
+.seventh-a-5 {
+	background: url(/Zad1/img/5.png) no-repeat top center;
+}
+
+.seventh a:hover {
+	color: blue;
+}
+
+.seventh-a-1:hover {
+	background: url(/Zad1/img/1-h.png) no-repeat top center;
+}
+
+.seventh-a-2:hover {
+	background: url(/Zad1/img/2-h.png) no-repeat top center;
+}
+
+.seventh-a-3:hover {
+	background: url(/Zad1/img/3-h.png) no-repeat top center;
+}
+
+.seventh-a-4:hover {
+	background: url(/Zad1/img/4-h.png) no-repeat top center;
+}
+
+.seventh-a-5:hover {
+	background: url(/Zad1/img/5-h.png) no-repeat top center;
+}
+
+.eight {
+	list-style-type: none;
+	background: orange;
+	margin: 10px 50px;
+}
+
+.eight-li {
+	display: inline-block;
+	list-style: none;
+	color: white;
+	text-align: center;
+	padding: 20px
+}
+
+.eight-li:hover {
+	background: orangered;
+}
+
+.block {
+	width: 200px;
+	margin: 0px 50px;
+}
+
+.calendar a:link, .calendar a:visited {
+	 color:#506361; text-decoration: none;
+}
+
+.calendar a:hover {
+	color:#506361;
+	text-decoration: underline;
+}
+
+.calendar a.holiday:link, .calendar a.holiday:visited {
+	color:#8CA2C1;
+}
+
+.calendar a {
+	font-family: Arial; font-size: 12px; line-height: 1;
+}
+
+.calendar{
+	width: 150px;
+	margin: 20px 0px;
+}
+.calendar {
+	width: 100%; height: 100%;
+}
+
+.calendar td {
+	text-align: center;
+}
+
+.calendar th {
+	border-bottom: 1px solid #000000;
+}
+
+.calendar a.active {
+	color: red; font-weight: bold;
+}
